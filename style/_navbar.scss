@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    z-index: 1000;
+    width: 100%;
+    color: var(--text-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    &-logo{
+        font-size: 2rem;
+    }
+    &-links{
+        display: flex;
+        align-items: center;
+        li{
+            margin: 0 30px;
+           
+        }
+    }
+    span{
+        color: var(--primary-color);
+        font-style: italic;
+    }
+}
