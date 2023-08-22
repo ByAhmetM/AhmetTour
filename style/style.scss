@@ -56,6 +56,8 @@ p{
     padding: 0px 40px;
 }
 
+
+
 .navbar-links a{
     color: var(--text-color);
     transition: var(--transition);
@@ -65,11 +67,31 @@ p{
     color: black;
 }
 
-
-.active{
-    color: #fc036b;
-    text-decoration: underline;
+.navbar-links a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    display: block;
+    transition: .5s ease;
 }
+
+.navbar-links a:hover::after{
+    width: 100%;
+}
+
+.navbar-links li:last-child a::after{
+    display: none;
+}
+
+
+.navbar-links li:first-child a{
+    color: var(--primary-color); 
+    text-decoration: underline
+}
+
+
+
 
 .events-row ,.tours-row{
     display: flex;
