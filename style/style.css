@@ -81,6 +81,10 @@
 }
 .events-row img {
   width: 80%;
+  transition: var(--transition);
+}
+.events-row img:hover {
+  transform: scale(1.07);
 }
 .events-row .btn {
   margin-top: 30px;
@@ -140,6 +144,10 @@
 }
 .tours-row-col-gallery img {
   width: 100%;
+  transition: var(--transition);
+}
+.tours-row-col-gallery img:hover {
+  transform: scale(1.05);
 }
 
 .footer {
