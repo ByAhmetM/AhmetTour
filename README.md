@@ -2,4 +2,4 @@
 
 <h3>SASS PROJECT</h3>
 
-<img src="./sass-ekrankaydı.gif"/>
+<img src="sass-ekrankaydı.gif">
